@@ -1,0 +1,2345 @@
+{
+	Tools = ordered() {
+		SliceMapper_1 = GroupOperator {
+			Tools = ordered() {
+				Controls_1 = Custom {
+					UserControls = ordered() { DestinationMode = { { CCS_AddString = "Single screen" }, { CCS_AddString = "Repeat to checked screens" }, { CCS_AddString = "Span full map" }, INP_Default = 0, LINKS_Name = "Routing", ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 2, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "ComboControl" }, NumberIn1 = { { CCS_AddString = "DJ" }, { CCS_AddString = "Missing: US" }, { CCS_AddString = "U OUTER" }, { CCS_AddString = "U INNER" }, { CCS_AddString = "SR 3" }, { CCS_AddString = "SR 2" }, { CCS_AddString = "SR 1" }, { CCS_AddString = "SR HEX" }, { CCS_AddString = "SR RING" }, { CCS_AddString = "SL 3" }, { CCS_AddString = "SL 2" }, { CCS_AddString = "SL1" }, { CCS_AddString = "SL HEX" }, { CCS_AddString = "SL CIRCLE" }, { CCS_AddString = "New screen" }, INP_Default = 0, LINKS_Name = "Screen", ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 14, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "ComboControl" }, NumberIn2 = { { CCS_AddString = "Fill" }, { CCS_AddString = "Fit" }, { CCS_AddString = "Stretch" }, INP_Default = 0, LINKS_Name = "Scaling", ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 2, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "ComboControl" }, NumberIn3 = { INP_Default = 1, LINKS_Name = "Zoom", ICD_Width = 1, ICS_ControlPage = "Controls", INP_MaxScale = 4, LINKID_DataType = "Number", INP_MinScale = 0.1, INPID_InputControl = "SliderControl" }, NumberIn4 = { INP_Default = 0, LINKS_Name = "Offset X (px)", ICD_Width = 1, ICS_ControlPage = "Controls", INP_MaxScale = 960, LINKID_DataType = "Number", INP_MinScale = -960, INPID_InputControl = "SliderControl" }, NumberIn5 = { INP_Default = 0, LINKS_Name = "Offset Y (px, up)", ICD_Width = 1, ICS_ControlPage = "Controls", INP_MaxScale = 540, LINKID_DataType = "Number", INP_MinScale = -540, INPID_InputControl = "SliderControl" }, NumberIn6 = { INP_Default = 0, LINKS_Name = "Rotation", ICD_Width = 1, ICS_ControlPage = "Controls", INP_MaxScale = 180, LINKID_DataType = "Number", INP_MinScale = -180, INPID_InputControl = "ScrewControl" }, NumberIn7 = { INP_Default = 0, LINKS_Name = "Flip Horizontal", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, NumberIn8 = { INP_Default = 0, LINKS_Name = "Flip Vertical", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send1 = { INP_Default = 1, LINKS_Name = "Send to: DJ", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send2 = { INP_Default = 0, LINKS_Name = "Missing: US", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send3 = { INP_Default = 1, LINKS_Name = "Send to: U OUTER", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send4 = { INP_Default = 1, LINKS_Name = "Send to: U INNER", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send5 = { INP_Default = 1, LINKS_Name = "Send to: SR 3", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send6 = { INP_Default = 1, LINKS_Name = "Send to: SR 2", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send7 = { INP_Default = 1, LINKS_Name = "Send to: SR 1", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send8 = { INP_Default = 1, LINKS_Name = "Send to: SR HEX", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send9 = { INP_Default = 1, LINKS_Name = "Send to: SR RING", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send10 = { INP_Default = 1, LINKS_Name = "Send to: SL 3", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send11 = { INP_Default = 1, LINKS_Name = "Send to: SL 2", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send12 = { INP_Default = 1, LINKS_Name = "Send to: SL1", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send13 = { INP_Default = 1, LINKS_Name = "Send to: SL HEX", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send14 = { INP_Default = 1, LINKS_Name = "Send to: SL CIRCLE", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" }, Send15 = { INP_Default = 1, LINKS_Name = "Send to: New screen", CBC_TriState = false, ICD_Width = 1, INP_Integer = true, ICS_ControlPage = "Controls", INP_MaxScale = 1, LINKID_DataType = "Number", INP_MinScale = 0, INPID_InputControl = "CheckboxControl" } },
+					CtrlWShown = false,
+					NameSet = true,
+					Inputs = {
+						LUTIn3 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1LUTIn3"
+						},
+						NumberIn3 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1NumberIn3"
+						},
+						NumberIn1 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1NumberIn1"
+						},
+						NumberIn4 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1NumberIn4"
+						},
+						Send15 = Input { Value = 0 },
+						NumberIn5 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1NumberIn5"
+						},
+						NumberIn6 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1NumberIn6"
+						},
+						NumberIn7 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1NumberIn7"
+						},
+						Send6 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSR2"
+						},
+						LUTIn1 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1LUTIn1"
+						},
+						Send9 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSRRING"
+						},
+						Send1 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoDJ"
+						},
+						Send2 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1MissingUS"
+						},
+						Send3 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoUOUTER"
+						},
+						Send4 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoUINNER"
+						},
+						Send5 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSR3"
+						},
+						DestinationMode = Input {
+							Source = "Value",
+							SourceOp = "Controls_1Routing"
+						},
+						Send7 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSR1"
+						},
+						Send8 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSRHEX"
+						},
+						LUTIn2 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1LUTIn2"
+						},
+						Send10 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSL3"
+						},
+						Send11 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSL2"
+						},
+						Send12 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSL1"
+						},
+						Send13 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSLHEX"
+						},
+						Send14 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1SendtoSLCIRCLE"
+						},
+						LUTIn4 = Input {
+							Source = "Value",
+							SourceOp = "Controls_1LUTIn4"
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, -66 } }
+				},
+				SourceResize_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "MediaIn1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Canvas_1 = Background {
+					ViewInfo = OperatorInfo { Pos = { 110, 99 } },
+					Inputs = {
+						TopLeftAlpha = Input { Value = 0 },
+						Height = Input { Value = 2160 },
+						Width = Input { Value = 3840 },
+						GlobalOut = Input { Value = 71 }
+					},
+					CtrlWShown = false
+				},
+				Screen1Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 152.82446289062), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 152.82446289062),(iif(Controls_1.DestinationMode > 1.5, 3840, 970.61010742188))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 152.82446289062),(iif(Controls_1.DestinationMode > 1.5, 3840, 970.61010742188))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 546
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 970.61010742188), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 970.61010742188),(iif(Controls_1.DestinationMode > 1.5, 2160, 152.82446289062))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 970.61010742188),(iif(Controls_1.DestinationMode > 1.5, 2160, 152.82446289062))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 971
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen1Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen1Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen1Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.50079425175985, 0.26619370071976 } },
+						Width = Input { Value = 0.25276304880778 },
+						Height = Input { Value = 0.070752066153067 }
+					},
+					CtrlWShown = false
+				},
+				Screen1Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.12558727264404, Y = -0.26918233235677 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.098245112101237, Y = -0.1984302662037 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.097403208414714, Y = -0.19870029025608 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.12717577616374, Y = -0.26918233235677 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen1Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen1Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.50079425175985), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.26619370071976))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen1Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen1Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 0) < 0.5, 1, 0), Controls_1.Send1)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen1Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen1Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen2Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 1), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 1),(iif(Controls_1.DestinationMode > 1.5, 3840, 1))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 1),(iif(Controls_1.DestinationMode > 1.5, 3840, 1))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 1080
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 1), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 1),(iif(Controls_1.DestinationMode > 1.5, 2160, 1))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 1),(iif(Controls_1.DestinationMode > 1.5, 2160, 1))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 1920
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen2Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen2Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen2Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.00013020833333333, 0.99976851851852 } },
+						Width = Input { Value = 0.00026041666666667 },
+						Height = Input { Value = 0.00046296296296296 }
+					},
+					CtrlWShown = false
+				},
+				Screen2Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen1Clip2_1"
+						},
+						Blend = Input { Expression = "0" },
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.00013020833333333), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.99976851851852))" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen2Framing_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen2Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen3Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 473.44097900391), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 473.44097900391),(iif(Controls_1.DestinationMode > 1.5, 3840, 586.43017578125))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 473.44097900391),(iif(Controls_1.DestinationMode > 1.5, 3840, 586.43017578125))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 473
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 586.43017578125), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 586.43017578125),(iif(Controls_1.DestinationMode > 1.5, 2160, 473.44097900391))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 586.43017578125),(iif(Controls_1.DestinationMode > 1.5, 2160, 473.44097900391))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 842
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen3Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen3Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen3Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.50012989044189, 0.83325159991229 } },
+						Width = Input { Value = 0.1527161916097 },
+						Height = Input { Value = 0.21918563842773 }
+					},
+					CtrlWShown = false
+				},
+				Screen3Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.075888093312581, Y = 0.36605823658131 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.070786221822103, Y = 0.39928959034107 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.063303470611572, Y = 0.42199769196687 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.051739279429118, Y = 0.44027496620461 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.051466623942057, Y = 0.33554657830132 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.045957120259603, Y = 0.30402628580729 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.033372497558594, Y = 0.28574898331254 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.019767506917318, Y = 0.27024100974754 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.00064001083374021, Y = 0.26636406227394 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.021727911631266, Y = 0.27245645876284 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.035672760009766, Y = 0.28408740008319 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.046216837565104, Y = 0.30513396086516 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.050978469848633, Y = 0.33559609872323 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.050885454813639, Y = 0.44284441912616 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.062882995605469, Y = 0.4231053882175 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.071726163228353, Y = 0.39984344199852 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.076487986246745, Y = 0.36328889352304 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.0750457127889, Y = 0.33268530103895 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.072066307067871, Y = 0.29073370474356 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.056420516967773, Y = 0.25584075362594 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.036541175842285, Y = 0.22680700796622 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.019011243184408, Y = 0.22495312160916 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.0014187177022298, Y = 0.22365878069842 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.015107822418213, Y = 0.22482319584599 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.034392833709717, Y = 0.22759407891168 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.056500911712646, Y = 0.25473302205404 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.072826989491781, Y = 0.29239528797291 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.0762282371521, Y = 0.33171912299262 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen3Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen3Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.50012989044189), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.83325159991229))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen3Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen3Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen2Clip1_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 2) < 0.5, 1, 0), Controls_1.Send3)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen3Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen3Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen4Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 338.44996643066), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 338.44996643066),(iif(Controls_1.DestinationMode > 1.5, 3840, 131.85693359375))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 338.44996643066),(iif(Controls_1.DestinationMode > 1.5, 3840, 131.85693359375))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 338
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 131.85693359375), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 131.85693359375),(iif(Controls_1.DestinationMode > 1.5, 2160, 338.44996643066))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 131.85693359375),(iif(Controls_1.DestinationMode > 1.5, 2160, 338.44996643066))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 602
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen4Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen4Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen4Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.49985885620117, 0.89947521421644 } },
+						Width = Input { Value = 0.034337743123372 },
+						Height = Input { Value = 0.15668979927346 }
+					},
+					CtrlWShown = false
+				},
+				Screen4Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.0089576085408529, Y = 0.47520025747794 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.017010052998861, Y = 0.47000947175203 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.017310015360514, Y = 0.34944679825394 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.010349686940511, Y = 0.3295358022054 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.00052941640218102, Y = 0.32113030045121 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.010531330108643, Y = 0.33058377018681 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.017027759552002, Y = 0.34944679825394 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.017027759552002, Y = 0.47153245784618 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.0098353385925293, Y = 0.47624820426658 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.0005548477172852, Y = 0.47782011032104 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen4Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen4Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.49985885620117), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.89947521421644))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen4Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen4Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen3Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 3) < 0.5, 1, 0), Controls_1.Send4)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen4Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen4Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen5Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 445.8291015625), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 445.8291015625),(iif(Controls_1.DestinationMode > 1.5, 3840, 1151.0986328125))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 445.8291015625),(iif(Controls_1.DestinationMode > 1.5, 3840, 1151.0986328125))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 647
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 1151.0986328125), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 1151.0986328125),(iif(Controls_1.DestinationMode > 1.5, 2160, 445.8291015625))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 1151.0986328125),(iif(Controls_1.DestinationMode > 1.5, 2160, 445.8291015625))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 1151
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen5Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen5Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen5Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.15232747395833, 0.38455527976707 } },
+						Width = Input { Value = 0.29976526896159 },
+						Height = Input { Value = 0.20640236183449 }
+					},
+					CtrlWShown = false
+				},
+				Screen5Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.49755516052246, Y = -0.21864590115017 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.44943612416585, Y = -0.1355876216182 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.19778989156087, Y = -0.012243539315683 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.27836144765218, Y = -0.21864590115017 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen5Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen5Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.15232747395833), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.38455527976707))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen5Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen5Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen4Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 4) < 0.5, 1, 0), Controls_1.Send5)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen5Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen5Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen6Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 505.91125488281), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 505.91125488281),(iif(Controls_1.DestinationMode > 1.5, 3840, 662.53588867188))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 505.91125488281),(iif(Controls_1.DestinationMode > 1.5, 3840, 662.53588867188))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 506
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 662.53588867188), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 662.53588867188),(iif(Controls_1.DestinationMode > 1.5, 2160, 505.91125488281))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 662.53588867188),(iif(Controls_1.DestinationMode > 1.5, 2160, 505.91125488281))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 899
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen6Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen6Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen6Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.32770210901896, 0.64348469486943 } },
+						Width = Input { Value = 0.17253538767497 },
+						Height = Input { Value = 0.23421817355686 }
+					},
+					CtrlWShown = false
+				},
+				Screen6Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.25856558481852, Y = 0.26059378164786 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.18348751068115, Y = 0.26059378164786 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.086030197143555, Y = 0.066802300347222 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.15930366516113, Y = 0.026375608091001 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen6Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen6Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.32770210901896), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.64348469486943))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen6Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen6Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen5Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 5) < 0.5, 1, 0), Controls_1.Send6)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen6Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen6Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen7Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 583.69311523438), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 583.69311523438),(iif(Controls_1.DestinationMode > 1.5, 3840, 1011.6169433594))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 583.69311523438),(iif(Controls_1.DestinationMode > 1.5, 3840, 1011.6169433594))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 584
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 1011.6169433594), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 1011.6169433594),(iif(Controls_1.DestinationMode > 1.5, 2160, 583.69311523438))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 1011.6169433594),(iif(Controls_1.DestinationMode > 1.5, 2160, 583.69311523438))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 1038
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen7Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen7Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen7Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.13151961962382, 0.62749594229239 } },
+						Width = Input { Value = 0.26344191233317 },
+						Height = Input { Value = 0.27022829408999 }
+					},
+					CtrlWShown = false
+				},
+				Screen7Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.50020133256912, Y = 0.26261008933738 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.30362687110901, Y = 0.26179801093207 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.23675942420959, Y = 0.099829242847584 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.41219169298808, Y = -0.0076182047526042 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen7Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen7Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.13151961962382), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.62749594229239))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen7Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen7Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen6Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 6) < 0.5, 1, 0), Controls_1.Send7)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen7Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen7Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen8Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 429.98388671875), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 429.98388671875),(iif(Controls_1.DestinationMode > 1.5, 3840, 469.083984375))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 429.98388671875),(iif(Controls_1.DestinationMode > 1.5, 3840, 469.083984375))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 430
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 469.083984375), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 469.083984375),(iif(Controls_1.DestinationMode > 1.5, 2160, 429.98388671875))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 469.083984375),(iif(Controls_1.DestinationMode > 1.5, 2160, 429.98388671875))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 764
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen8Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen8Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen8Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.35716590881348, 0.39946209942853 } },
+						Width = Input { Value = 0.12215728759766 },
+						Height = Input { Value = 0.19906661422164 }
+					},
+					CtrlWShown = false
+				},
+				Screen8Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.17297471364339, Y = -0.0010473180700231 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.1107182820638, Y = -0.0010045934606482 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.081755447387695, Y = -0.10793050130208 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.11699924468994, Y = -0.20007120768229 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.17520732879639, Y = -0.20007120768229 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = -0.20391273498535, Y = -0.10793050130208 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen8Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen8Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.35716590881348), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.39946209942853))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen8Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen8Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen7Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 7) < 0.5, 1, 0), Controls_1.Send8)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen8Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen8Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen9Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344),(iif(Controls_1.DestinationMode > 1.5, 3840, 213.33325195312))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344),(iif(Controls_1.DestinationMode > 1.5, 3840, 213.33325195312))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 213
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 213.33325195312), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 213.33325195312),(iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 213.33325195312),(iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 379
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen9Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen9Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen9Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.40056864420573, 0.69271045260959 } },
+						Width = Input { Value = 0.055555534362793 },
+						Height = Input { Value = 0.098765450936777 }
+					},
+					CtrlWShown = false
+				},
+				Screen9Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, LY = 0, RX = 0.015341218312581, LX = -0.015341218312581, X = -0.099431355794271, Y = 0.24209314982096 },
+									{ RY = -0.027273277000145, LY = 0.027273277000145, RX = 0, LX = 0, X = -0.071653588612874, Y = 0.19271045260959 },
+									{ RY = 0, LY = 0, RX = -0.015341218312581, LX = 0.015341218312581, X = -0.099431355794271, Y = 0.14332775539822 },
+									{ RY = 0.027273277000145, LY = -0.027273277000145, RX = 0, LX = 0, X = -0.12720912297567, Y = 0.19271045260959 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen9Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen9Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.40056864420573), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.69271045260959))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen9Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen9Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen8Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 8) < 0.5, 1, 0), Controls_1.Send9)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen9Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen9Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen10Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 449.3203125), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 449.3203125),(iif(Controls_1.DestinationMode > 1.5, 3840, 1211.9765625))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 449.3203125),(iif(Controls_1.DestinationMode > 1.5, 3840, 1211.9765625))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 682
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 1211.9765625), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 1211.9765625),(iif(Controls_1.DestinationMode > 1.5, 2160, 449.3203125))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 1211.9765625),(iif(Controls_1.DestinationMode > 1.5, 2160, 449.3203125))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 1212
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen10Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen10Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen10Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.84132766723633, 0.38409695095486 } },
+						Width = Input { Value = 0.31561889648438 },
+						Height = Input { Value = 0.20801866319444 }
+					},
+					CtrlWShown = false
+				},
+				Screen10Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.18351815541585, Y = -0.01189377396195 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.44167512257894, Y = -0.13296610514323 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.49913711547852, Y = -0.21991238064236 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.2707036336263, Y = -0.21975900155527 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen10Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen10Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.84132766723633), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.38409695095486))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen10Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen10Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen9Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 9) < 0.5, 1, 0), Controls_1.Send10)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen10Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen10Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen11Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 513.24938964844), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 513.24938964844),(iif(Controls_1.DestinationMode > 1.5, 3840, 662.62255859375))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 513.24938964844),(iif(Controls_1.DestinationMode > 1.5, 3840, 662.62255859375))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 513
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 662.62255859375), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 662.62255859375),(iif(Controls_1.DestinationMode > 1.5, 2160, 513.24938964844))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 662.62255859375),(iif(Controls_1.DestinationMode > 1.5, 2160, 513.24938964844))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 912
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen11Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen11Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen11Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.67031841278076, 0.64146273577655 } },
+						Width = Input { Value = 0.17255795796712 },
+						Height = Input { Value = 0.23761545817057 }
+					},
+					CtrlWShown = false
+				},
+				Screen11Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.0840394337972, Y = 0.064130966751664 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.18248596191406, Y = 0.26027046486183 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.25659739176432, Y = 0.26027046486183 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.15630728403727, Y = 0.022655006691262 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen11Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen11Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.67031841278076), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.64146273577655))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen11Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen11Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen10Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 10) < 0.5, 1, 0), Controls_1.Send11)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen11Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen11Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen12Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 586.49682617188), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 586.49682617188),(iif(Controls_1.DestinationMode > 1.5, 3840, 1023.4267578125))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 586.49682617188),(iif(Controls_1.DestinationMode > 1.5, 3840, 1023.4267578125))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 586
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 1023.4267578125), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 1023.4267578125),(iif(Controls_1.DestinationMode > 1.5, 2160, 586.49682617188))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 1023.4267578125),(iif(Controls_1.DestinationMode > 1.5, 2160, 586.49682617188))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 1043
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen12Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen12Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen12Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.8667413075765, 0.62972830313223 } },
+						Width = Input { Value = 0.26651738484701 },
+						Height = Input { Value = 0.27152630841291 }
+					},
+					CtrlWShown = false
+				},
+				Screen12Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.23348261515299, Y = 0.096460978190104 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.29894262949626, Y = 0.26531403153031 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.50000006357829, Y = 0.26549145733869 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.41374912261963, Y = -0.0060348510742188 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen12Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen12Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.8667413075765), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.62972830313223))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen12Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen12Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen11Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 11) < 0.5, 1, 0), Controls_1.Send12)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen12Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen12Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen13Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 406.6376953125), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 406.6376953125),(iif(Controls_1.DestinationMode > 1.5, 3840, 437.24462890625))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 406.6376953125),(iif(Controls_1.DestinationMode > 1.5, 3840, 437.24462890625))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 407
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 437.24462890625), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 437.24462890625),(iif(Controls_1.DestinationMode > 1.5, 2160, 406.6376953125))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 437.24462890625),(iif(Controls_1.DestinationMode > 1.5, 2160, 406.6376953125))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 723
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen13Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen13Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen13Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.64082584381104, 0.4050375479239 } },
+						Width = Input { Value = 0.11386578877767 },
+						Height = Input { Value = 0.18825819227431 }
+					},
+					CtrlWShown = false
+				},
+				Screen13Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.11149222056071, Y = -0.00087376347294565 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.17036844889323, Y = -0.00083335593894673 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.19775873819987, Y = -0.10195374665437 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.16442845662435, Y = -0.18909160472729 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.10938078562419, Y = -0.18909160472729 },
+									{ RY = 0, Linear = true, LY = 0, RX = 0, LX = 0, X = 0.0838929494222, Y = -0.10195374665437 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen13Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen13Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.64082584381104), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.4050375479239))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen13Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen13Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen12Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 12) < 0.5, 1, 0), Controls_1.Send13)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen13Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen13Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen14Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344),(iif(Controls_1.DestinationMode > 1.5, 3840, 213.3330078125))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344),(iif(Controls_1.DestinationMode > 1.5, 3840, 213.3330078125))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 213
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 213.3330078125), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 213.3330078125),(iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 213.3330078125),(iif(Controls_1.DestinationMode > 1.5, 2160, 213.33337402344))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 379
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen14Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen14Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen14Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.61177584330241, 0.73900674890589 } },
+						Width = Input { Value = 0.055555470784505 },
+						Height = Input { Value = 0.098765450936777 }
+					},
+					CtrlWShown = false
+				},
+				Screen14Contour1_1 = PolylineMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					CtrlWShown = false,
+					DrawMode2 = "InsertAndModify",
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Polyline2 = Input {
+							Disabled = true,
+							Value = Polyline {
+							}
+						},
+						Polyline = Input {
+							Value = Polyline {
+								Points = {
+									{ RY = 0, LY = 0, RX = 0.015341186523437, LX = -0.015341186523437, X = 0.11177584330241, Y = 0.28838938960323 },
+									{ RY = -0.027273248743128, LY = 0.027273248743128, RX = 0, LX = 0, X = 0.13955357869466, Y = 0.23900674890589 },
+									{ RY = 0, LY = 0, RX = -0.015341186523437, LX = 0.015341186523437, X = 0.11177584330241, Y = 0.18962410820855 },
+									{ RY = 0.027273248743128, LY = -0.027273248743128, RX = 0, LX = 0, X = 0.083998107910156, Y = 0.23900674890589 }
+								},
+								Closed = true
+							}
+						}
+					},
+					DrawMode = "ClickAppend"
+				},
+				Screen14Clip1_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Canvas_1"
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen14Framing_1"
+						},
+						Center = Input { Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.61177584330241), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.73900674890589))" },
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen14Rect_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen14Clip2_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen13Clip2_1"
+						},
+						Blend = Input { Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 13) < 0.5, 1, 0), Controls_1.Send14)" },
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen14Clip1_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen14Contour1_1"
+						}
+					},
+					CtrlWShown = false
+				},
+				Screen15Resize_1 = BetterResize {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Input = Input {
+							Source = "Output",
+							SourceOp = "SourceResize_1"
+						},
+						PixelAspect = Input { Value = { 1, 1 } },
+						Height = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 2160, 100), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 2160, 100),(iif(Controls_1.DestinationMode > 1.5, 3840, 200))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 2160, 100),(iif(Controls_1.DestinationMode > 1.5, 3840, 200))/(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 1080
+						},
+						Width = Input {
+							Expression = "max(1,floor(iif(Controls_1.NumberIn2 > 1.5, iif(Controls_1.DestinationMode > 1.5, 3840, 200), iif(Controls_1.NumberIn2 < 0.5, max(iif(Controls_1.DestinationMode > 1.5, 3840, 200),(iif(Controls_1.DestinationMode > 1.5, 2160, 100))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1))), min(iif(Controls_1.DestinationMode > 1.5, 3840, 200),(iif(Controls_1.DestinationMode > 1.5, 2160, 100))*(self.Input.OriginalWidth / max(self.Input.OriginalHeight,1)))))+0.5))",
+							Value = 1920
+						},
+						HiQOnly = Input { Value = 0 }
+					},
+					CtrlWShown = false
+				},
+				Screen15Framing_1 = Transform {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Size = Input { Expression = "max(Controls_1.NumberIn3,0.001)" },
+						Angle = Input { Expression = "Controls_1.NumberIn6" },
+						FlipHoriz = Input { Expression = "Controls_1.NumberIn7" },
+						Center = Input { Expression = "Point(0.5 + Controls_1.NumberIn4 / max(self.Input.OriginalWidth,1), 0.5 + Controls_1.NumberIn5 / max(self.Input.OriginalHeight,1))" },
+						Input = Input {
+							Source = "Output",
+							SourceOp = "Screen15Resize_1"
+						},
+						FlipVert = Input { Expression = "Controls_1.NumberIn8" }
+					},
+					CtrlWShown = false
+				},
+				Screen15Rect_1 = RectangleMask {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						MaskWidth = Input { Value = 3840 },
+						MaskHeight = Input { Value = 2160 },
+						PixelAspect = Input { Value = { 1, 1 } },
+						Center = Input { Value = { 0.80729166666667, 0.097222222222222 } },
+						Width = Input { Value = 0.052083333333333 },
+						Height = Input { Value = 0.046296296296296 }
+					},
+					CtrlWShown = false
+				},
+				ScreenOutput_1 = Merge {
+					ViewInfo = OperatorInfo { Pos = { 0, 0 } },
+					Inputs = {
+						Background = Input {
+							Source = "Output",
+							SourceOp = "Screen14Clip2_1"
+						},
+						Blend = Input {
+							Expression = "iif(Controls_1.DestinationMode < 0.5, iif(abs(Controls_1.NumberIn1 - 14) < 0.5, 1, 0), Controls_1.Send15)",
+							Value = 0
+						},
+						Center = Input {
+							Expression = "Point(iif(Controls_1.DestinationMode > 1.5, 0.5, 0.80729166666667), iif(Controls_1.DestinationMode > 1.5, 0.5, 0.097222222222222))",
+							Value = { 0.80729166666667, 0.097222222222222 }
+						},
+						Foreground = Input {
+							Source = "Output",
+							SourceOp = "Screen15Framing_1"
+						},
+						PerformDepthMerge = Input { Value = 0 },
+						EffectMask = Input {
+							Source = "Mask",
+							SourceOp = "Screen15Rect_1"
+						}
+					},
+					CtrlWShown = false
+				}
+			},
+			CtrlWZoom = false,
+			ViewInfo = GroupInfo {
+				Size = { 236, 231.364013671875, 118, 24.2423992156982 },
+				PipeStyle = "Direct",
+				Direction = "Horizontal",
+				Scale = 1,
+				Offset = { 0, 0 },
+				Pos = { 246, 29.1818141937256 },
+				Flags = {
+					AutoSnap = true,
+					RemoveRouters = true,
+					AllowPan = false
+				}
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					Source = "Output",
+					SourceOp = "ScreenOutput_1"
+				}
+			},
+			NameSet = true,
+			CustomData = {
+				DavinciSlice = {
+					SourceHash = "3a0664a04de92df580291899791b6d913032b89bbfc861839e954513645c9907",
+					Manifest = "{\"version\": 1, \"width\": 3840, \"height\": 2160, \"slices\": [{\"name\": \"DJ\", \"id\": \"1775801459859\", \"missing\": false}, {\"name\": \"US\", \"id\": \"1775801454123\", \"missing\": true}, {\"name\": \"U OUTER\", \"id\": \"1775744606534\", \"missing\": false}, {\"name\": \"U INNER\", \"id\": \"1775744606519\", \"missing\": false}, {\"name\": \"SR 3\", \"id\": \"1775801457252\", \"missing\": false}, {\"name\": \"SR 2\", \"id\": \"1775801457523\", \"missing\": false}, {\"name\": \"SR 1\", \"id\": \"1775801455716\", \"missing\": false}, {\"name\": \"SR HEX\", \"id\": \"1775801456785\", \"missing\": false}, {\"name\": \"SR RING\", \"id\": \"1775744604899\", \"missing\": false}, {\"name\": \"SL 3\", \"id\": \"1775801458295\", \"missing\": false}, {\"name\": \"SL 2\", \"id\": \"1775801456010\", \"missing\": false}, {\"name\": \"SL1\", \"id\": \"1775801455511\", \"missing\": false}, {\"name\": \"SL HEX\", \"id\": \"1775801456480\", \"missing\": false}, {\"name\": \"SL CIRCLE\", \"id\": \"1775744605044\", \"missing\": false}, {\"name\": \"New screen\", \"id\": \"update-test-new\", \"missing\": false}]}",
+					MapName = "UltraMelb2026"
+				}
+			},
+			Inputs = ordered() {
+				Comments = Input { Value = "Slice Mapper: UltraMelb2026 | 14 screens | 3840 x 2160" },
+				DestinationMode = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 0,
+					Source = "DestinationMode",
+					Page = "Controls",
+					Width = 1
+				},
+				Screen = InstanceInput {
+					SourceOp = "Controls_1",
+					Width = 1,
+					Default = 0,
+					Source = "NumberIn1",
+					Page = "Controls",
+					Name = "Screen"
+				},
+				Scaling = InstanceInput {
+					SourceOp = "Controls_1",
+					Width = 1,
+					Default = 0,
+					Source = "NumberIn2",
+					Page = "Controls",
+					Name = "Scaling"
+				},
+				Zoom = InstanceInput {
+					SourceOp = "Controls_1",
+					Width = 1,
+					Default = 1,
+					Source = "NumberIn3",
+					Page = "Controls",
+					Name = "Zoom"
+				},
+				OffsetX = InstanceInput {
+					SourceOp = "Controls_1",
+					Width = 1,
+					Default = 0,
+					Source = "NumberIn4",
+					Page = "Controls",
+					Name = "Offset X (px)"
+				},
+				OffsetY = InstanceInput {
+					SourceOp = "Controls_1",
+					Width = 1,
+					Default = 0,
+					Source = "NumberIn5",
+					Page = "Controls",
+					Name = "Offset Y (px, up)"
+				},
+				Rotation = InstanceInput {
+					SourceOp = "Controls_1",
+					Width = 1,
+					Default = 0,
+					Source = "NumberIn6",
+					Page = "Controls",
+					Name = "Rotation"
+				},
+				FlipH = InstanceInput {
+					SourceOp = "Controls_1",
+					Width = 1,
+					Default = 0,
+					Source = "NumberIn7",
+					Page = "Controls",
+					Name = "Flip Horizontal"
+				},
+				FlipV = InstanceInput {
+					SourceOp = "Controls_1",
+					Width = 1,
+					Default = 0,
+					Source = "NumberIn8",
+					Page = "Controls",
+					Name = "Flip Vertical"
+				},
+				Send1 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send1",
+					Page = "Controls",
+					Width = 1
+				},
+				Send2 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 0,
+					Source = "Send2",
+					Page = "Controls",
+					Width = 1
+				},
+				Send3 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send3",
+					Page = "Controls",
+					Width = 1
+				},
+				Send4 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send4",
+					Page = "Controls",
+					Width = 1
+				},
+				Send5 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send5",
+					Page = "Controls",
+					Width = 1
+				},
+				Send6 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send6",
+					Page = "Controls",
+					Width = 1
+				},
+				Send7 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send7",
+					Page = "Controls",
+					Width = 1
+				},
+				Send8 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send8",
+					Page = "Controls",
+					Width = 1
+				},
+				Send9 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send9",
+					Page = "Controls",
+					Width = 1
+				},
+				Send10 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send10",
+					Page = "Controls",
+					Width = 1
+				},
+				Send11 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send11",
+					Page = "Controls",
+					Width = 1
+				},
+				Send12 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send12",
+					Page = "Controls",
+					Width = 1
+				},
+				Send13 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send13",
+					Page = "Controls",
+					Width = 1
+				},
+				Send14 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send14",
+					Page = "Controls",
+					Width = 1
+				},
+				Send15 = InstanceInput {
+					SourceOp = "Controls_1",
+					Default = 1,
+					Source = "Send15",
+					Page = "Controls",
+					Width = 1
+				},
+				MainInput1 = InstanceInput {
+					Source = "Input",
+					SourceOp = "SourceResize_1"
+				}
+			}
+		},
+		Controls_1LUTIn1 = LUTBezier {
+			SplineColor = { Red = 0, Blue = 0, Green = 0 },
+			CtrlWZoom = false,
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					{ 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			NameSet = true
+		},
+		Controls_1LUTIn2 = LUTBezier {
+			SplineColor = { Red = 0, Blue = 0, Green = 0 },
+			CtrlWZoom = false,
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					{ 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			NameSet = true
+		},
+		Controls_1LUTIn3 = LUTBezier {
+			SplineColor = { Red = 0, Blue = 0, Green = 0 },
+			CtrlWZoom = false,
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					{ 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			NameSet = true
+		},
+		Controls_1LUTIn4 = LUTBezier {
+			SplineColor = { Red = 0, Blue = 0, Green = 0 },
+			CtrlWZoom = false,
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					{ 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			NameSet = true
+		},
+		Controls_1Routing = BezierSpline {
+			SplineColor = { Red = 222, Blue = 167, Green = 243 },
+			KeyFrames = {
+				[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1.33333333333333 }, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } },
+				{ 2, RH = { 2.33333333333333, 1.66666666666667 }, LH = { 1.66666666666667, 1.66666666666667 }, Flags = { Linear = true } },
+				{ 1, RH = { 3.33333333333333, 1.33333333333333 }, LH = { 2.66666666666667, 1.33333333333333 }, Flags = { Linear = true } },
+				{ 2, RH = { 4.33333333333333, 1.66666666666667 }, LH = { 3.66666666666667, 1.66666666666667 }, Flags = { Linear = true } },
+				{ 1, RH = { 5.33333333333333, 0.666666666666667 }, LH = { 4.66666666666667, 1.33333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1NumberIn1 = BezierSpline {
+			SplineColor = { Red = 233, Blue = 5, Green = 19 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 1 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 3.33333333333333, 1 }, LH = { 2.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 4.33333333333333, 1 }, LH = { 3.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 5.33333333333333, 3.33333333333333 }, LH = { 4.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 8, RH = { 6.33333333333333, 8 }, LH = { 5.66666666666667, 5.66666666666667 }, Flags = { Linear = true } },
+				{ 8, LH = { 6.66666666666667, 8 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1NumberIn3 = BezierSpline {
+			SplineColor = { Red = 233, Blue = 5, Green = 88 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 1 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 3.33333333333333, 1 }, LH = { 2.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 4.33333333333333, 1 }, LH = { 3.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 5.33333333333333, 1 }, LH = { 4.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 6.33333333333333, 1.1 }, LH = { 5.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1.3, LH = { 6.66666666666667, 1.2 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1NumberIn4 = BezierSpline {
+			SplineColor = { Red = 233, Blue = 5, Green = 151 },
+			KeyFrames = {
+				[0] = { 0, RH = { 0.333333333333333, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 1.33333333333333, 0 }, LH = { 0.666666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 2.33333333333333, 0 }, LH = { 1.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 4 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 12, LH = { 6.66666666666667, 8 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1NumberIn5 = BezierSpline {
+			SplineColor = { Red = 233, Blue = 5, Green = 208 },
+			KeyFrames = {
+				[0] = { 0, RH = { 0.333333333333333, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 1.33333333333333, 0 }, LH = { 0.666666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 2.33333333333333, 0 }, LH = { 1.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, -2.33333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ -7, LH = { 6.66666666666667, -4.66666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1NumberIn6 = BezierSpline {
+			SplineColor = { Red = 206, Blue = 5, Green = 233 },
+			KeyFrames = {
+				[0] = { 0, RH = { 0.333333333333333, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 1.33333333333333, 0 }, LH = { 0.666666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 2.33333333333333, 0 }, LH = { 1.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 10.3333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 31, LH = { 6.66666666666667, 20.6666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1NumberIn7 = BezierSpline {
+			SplineColor = { Red = 118, Blue = 5, Green = 233 },
+			KeyFrames = {
+				[0] = { 0, RH = { 0.333333333333333, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 1.33333333333333, 0 }, LH = { 0.666666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 2.33333333333333, 0 }, LH = { 1.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoDJ = BezierSpline {
+			SplineColor = { Red = 69, Blue = 8, Green = 241 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1MissingUS = BezierSpline {
+			SplineColor = { Red = 69, Blue = 8, Green = 241 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 1 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 3.33333333333333, 1 }, LH = { 2.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 4.33333333333333, 0.666666666666667 }, LH = { 3.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoUOUTER = BezierSpline {
+			SplineColor = { Red = 218, Blue = 245, Green = 44 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoUINNER = BezierSpline {
+			SplineColor = { Red = 245, Blue = 205, Green = 44 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSR3 = BezierSpline {
+			SplineColor = { Red = 69, Blue = 8, Green = 241 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSR2 = BezierSpline {
+			SplineColor = { Red = 69, Blue = 8, Green = 241 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSR1 = BezierSpline {
+			SplineColor = { Red = 69, Blue = 8, Green = 241 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSRHEX = BezierSpline {
+			SplineColor = { Red = 242, Blue = 103, Green = 48 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSRRING = BezierSpline {
+			SplineColor = { Red = 242, Blue = 25, Green = 48 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 1 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 3.33333333333333, 1 }, LH = { 2.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 4.33333333333333, 0.666666666666667 }, LH = { 3.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSL3 = BezierSpline {
+			SplineColor = { Red = 69, Blue = 8, Green = 241 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSL2 = BezierSpline {
+			SplineColor = { Red = 69, Blue = 8, Green = 241 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSL1 = BezierSpline {
+			SplineColor = { Red = 69, Blue = 8, Green = 241 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSLHEX = BezierSpline {
+			SplineColor = { Red = 241, Blue = 23, Green = 118 },
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		},
+		Controls_1SendtoSLCIRCLE = BezierSpline {
+			SplineColor = { Red = 241, Blue = 23, Green = 184 },
+			CtrlWZoom = false,
+			KeyFrames = {
+				[0] = { 1, RH = { 0.333333333333333, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 1.33333333333333, 1 }, LH = { 0.666666666666667, 1 }, Flags = { Linear = true } },
+				{ 1, RH = { 2.33333333333333, 0.666666666666667 }, LH = { 1.66666666666667, 1 }, Flags = { Linear = true } },
+				{ 0, RH = { 3.33333333333333, 0 }, LH = { 2.66666666666667, 0.333333333333333 }, Flags = { Linear = true } },
+				{ 0, RH = { 4.33333333333333, 0 }, LH = { 3.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 5.33333333333333, 0 }, LH = { 4.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 0, RH = { 6.33333333333333, 0.333333333333333 }, LH = { 5.66666666666667, 0 }, Flags = { Linear = true } },
+				{ 1, LH = { 6.66666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+			},
+			NameSet = true
+		}
+	}
+}

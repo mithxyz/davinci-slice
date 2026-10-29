@@ -1,0 +1,10 @@
+local fu=fusion or fu or bmd.scriptapp('Fusion')
+local c=fu:GetCurrentComp();local m=assert(c:FindTool('MapRemapper'))
+local f=assert(io.open("/Users/mattosborne/M-projects/Claude/Davinci Slice/validation/remapper/cases/native_forward.json",'rb'));local manifest=f:read('*a');f:close()
+m:SetData('DavinciRemap.Manifest',manifest)
+m:SetData('DavinciRemap.SourceHash',manifest:match('"source_sha256":%s*"([^"]+)"'))
+m:SetData('DavinciRemap.MapName','DavinciMap / Screen 1')
+m.Comments='Map Remapper: DavinciMap / Screen 1 | 14 slices | 3840 x 2160'
+c:SetActiveTool(m)
+c:Save("/Users/mattosborne/M-projects/Claude/Davinci Slice/validation/remapper/Native Map Remapper Validation.comp")
+assert(bmd.scriptapp('Resolve'):GetProjectManager():SaveProject())

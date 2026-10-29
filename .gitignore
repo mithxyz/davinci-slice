@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.log
+docs/user-guide/qa/
+docs/user-guide/screenshots/*-raw.png

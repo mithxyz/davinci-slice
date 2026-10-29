@@ -1,0 +1,12 @@
+{
+	missing_screen_slot_preserved = true,
+	new_screen_off = true,
+	per_instance_routing_verified = true,
+	rollback_verified = true,
+	rollback_error = "...i Resolve/Fusion/Scripts/Utility/Verify Slice Update.lua:198: ...i Resolve/Fusion/Scripts/Utility/Verify Slice Update.lua:175: attempt to index a nil value",
+	curves_preserved = 21,
+	static_values_preserved = 2,
+	undo_verified = true,
+	redo_verified = true,
+	renamed_screen_slot_preserved = true
+}

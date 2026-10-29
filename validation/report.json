@@ -1,0 +1,82 @@
+{
+  "resolve_version": "21.0.2.4",
+  "cases": [
+    {
+      "case": "main_fill",
+      "screen": "Main",
+      "alpha_bounds": [
+        960,
+        540,
+        2880,
+        1620
+      ],
+      "outside_alpha_zero": true
+    },
+    {
+      "case": "square_fill",
+      "screen": "SQ-1",
+      "alpha_bounds": [
+        383,
+        0,
+        896,
+        512
+      ],
+      "outside_alpha_zero": true
+    },
+    {
+      "case": "square_fit",
+      "screen": "SQ-1",
+      "alpha_bounds": [
+        383,
+        112,
+        896,
+        400
+      ],
+      "outside_alpha_zero": true
+    },
+    {
+      "case": "square_framing",
+      "screen": "SQ-1",
+      "alpha_bounds": [
+        383,
+        0,
+        896,
+        512
+      ],
+      "outside_alpha_zero": true
+    },
+    {
+      "case": "column_fill",
+      "screen": "Col-L1",
+      "alpha_bounds": [
+        661,
+        540,
+        917,
+        1620
+      ],
+      "outside_alpha_zero": true
+    },
+    {
+      "case": "column_fit",
+      "screen": "Col-L1",
+      "alpha_bounds": [
+        661,
+        1008,
+        917,
+        1152
+      ],
+      "outside_alpha_zero": true
+    },
+    {
+      "case": "column_stretch",
+      "screen": "Col-L1",
+      "alpha_bounds": [
+        661,
+        540,
+        917,
+        1620
+      ],
+      "outside_alpha_zero": true
+    }
+  ]
+}

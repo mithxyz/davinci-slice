@@ -1,0 +1,10 @@
+<XmlState name="Test"><CurrentCompositionTextureSize width="640" height="360"/><screens>
+<Screen name="Processor A" uniqueId="A"><OutputDevice><OutputDeviceVirtual width="800" height="400"/></OutputDevice><layers>
+<Slice uniqueId="1"><Params name="Common"><Param name="Name" value="Left"/></Params>
+<InputRect><v x="10.5" y="20"/><v x="110.5" y="20"/><v x="110.5" y="70"/><v x="10.5" y="70"/></InputRect>
+<OutputRect><v x="300" y="100"/><v x="500" y="100"/><v x="500" y="250"/><v x="300" y="250"/></OutputRect></Slice>
+</layers></Screen><Screen name="Processor B" uniqueId="B"><layers>
+<Slice uniqueId="2"><Params name="Common"><Param name="Name" value="Right"/></Params>
+<InputRect><v x="200" y="20"/><v x="300" y="20"/><v x="300" y="70"/><v x="200" y="70"/></InputRect>
+<OutputRect><v x="300" y="100"/><v x="500" y="100"/><v x="500" y="250"/><v x="300" y="250"/></OutputRect></Slice>
+</layers></Screen></screens></XmlState>

@@ -1,0 +1,16 @@
+{
+  "same_map_identical_frames": 8,
+  "reordered_renamed_new_off_identical_frames": 8,
+  "changed_geometry_frames": 8,
+  "removed_screen_transparent": true,
+  "circle_translation_px": [
+    50,
+    100
+  ],
+  "translated_edge_max_difference": 1,
+  "native_animation_curves_preserved": 21,
+  "native_static_controls_preserved": 2,
+  "undo_redo_verified": true,
+  "rollback_verified": true,
+  "per_instance_routing_verified": true
+}

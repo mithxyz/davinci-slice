@@ -1,0 +1,33 @@
+{
+  "name": "DavinciMap",
+  "width": 3840,
+  "height": 2160,
+  "coordinate_space": "Resolume input; top-left origin; pixels",
+  "source_sha256": "a9cfa6fca5f6ab82d1ab48c2ddafb4f91235287d2020edb759871e6b7d7a953a",
+  "slices": [
+    {
+      "name": "Main",
+      "id": "1793144513099",
+      "x": 960.0,
+      "y": 540.0,
+      "width": 1920.0,
+      "height": 1080.0
+    },
+    {
+      "name": "SQ-1",
+      "id": "1793144513916",
+      "x": 383.5,
+      "y": 0.0,
+      "width": 512.0,
+      "height": 512.0
+    },
+    {
+      "name": "Col-L1",
+      "id": "1793144513208",
+      "x": 661.0,
+      "y": 540.0,
+      "width": 256.0,
+      "height": 1080.0
+    }
+  ]
+}

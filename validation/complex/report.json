@@ -1,0 +1,161 @@
+{
+  "cases": [
+    {
+      "screen": "DJ",
+      "alpha_bounds": [
+        1437,
+        1508,
+        2409,
+        1662
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "US",
+      "alpha_bounds": [
+        1523,
+        744,
+        2320,
+        1433
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "U OUTER",
+      "alpha_bounds": [
+        1627,
+        123,
+        2214,
+        597
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "U INNER",
+      "alpha_bounds": [
+        1853,
+        48,
+        1986,
+        387
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SR 3",
+      "alpha_bounds": [
+        9,
+        1106,
+        1161,
+        1553
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SR 2",
+      "alpha_bounds": [
+        927,
+        517,
+        1590,
+        1023
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SR 1",
+      "alpha_bounds": [
+        0,
+        512,
+        1011,
+        1097
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SR HEX",
+      "alpha_bounds": [
+        1137,
+        1082,
+        1606,
+        1513
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SR CIRCLE",
+      "alpha_bounds": [
+        1381,
+        457,
+        1595,
+        671
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SL 3",
+      "alpha_bounds": [
+        2625,
+        1105,
+        3837,
+        1555
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SL 2",
+      "alpha_bounds": [
+        2242,
+        517,
+        2906,
+        1031
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SL1",
+      "alpha_bounds": [
+        2816,
+        506,
+        3840,
+        1093
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SL HEX",
+      "alpha_bounds": [
+        2242,
+        1081,
+        2680,
+        1489
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    },
+    {
+      "screen": "SL CIRCLE",
+      "alpha_bounds": [
+        2242,
+        457,
+        2456,
+        671
+      ],
+      "interior_coverage": 1.0,
+      "outside_contour_alpha_zero": true
+    }
+  ],
+  "edge_tolerance_pixels": 3,
+  "framing_keeps_boundary": true,
+  "inverted_mask_verified": true
+}

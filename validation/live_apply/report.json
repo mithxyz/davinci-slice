@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "case": "single_us",
+      "outside_destinations_alpha_zero": true,
+      "interior_coverage": 1.0
+    },
+    {
+      "case": "repeat_all",
+      "outside_destinations_alpha_zero": true,
+      "interior_coverage": 1.0
+    },
+    {
+      "case": "span_all",
+      "outside_destinations_alpha_zero": true,
+      "interior_coverage": 1.0
+    },
+    {
+      "case": "repeat_two",
+      "outside_destinations_alpha_zero": true,
+      "interior_coverage": 1.0
+    },
+    {
+      "case": "span_two",
+      "outside_destinations_alpha_zero": true,
+      "interior_coverage": 1.0
+    },
+    {
+      "case": "empty",
+      "outside_destinations_alpha_zero": true,
+      "interior_coverage": null
+    },
+    {
+      "case": "single_circle",
+      "outside_destinations_alpha_zero": true,
+      "interior_coverage": 1.0
+    },
+    {
+      "case": "repeat_framed",
+      "outside_destinations_alpha_zero": true,
+      "interior_coverage": 0.9909664967927018
+    }
+  ],
+  "direct_apply_rendered": true
+}

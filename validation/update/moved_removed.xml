@@ -1,0 +1,382 @@
+<XmlState name="UltraMelb2026">
+  <ScreenSetup>
+    <CurrentCompositionTextureSize width="3840" height="2160" />
+    <screens>
+      <Screen name="CENTER" uniqueId="1775744603600">
+        <layers>
+          <Polygon uniqueId="1775744606519" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="U INNER" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="1853.529541015625" y="47.9085540771484375" />
+              <v x="1985.386474609375" y="47.9085540771484375" />
+              <v x="1985.386474609375" y="386.3585205078125" />
+              <v x="1853.529541015625" y="386.3585205078125" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="1885.602783203125" y="53.56744384765625" />
+                <v x="1854.681396484375" y="64.779541015625" />
+                <v x="1853.529541015625" y="325.194915771484375" />
+                <v x="1880.2572021484375" y="368.202667236328125" />
+                <v x="1917.967041015625" y="386.358551025390625" />
+                <v x="1960.4403076171875" y="365.939056396484375" />
+                <v x="1985.3865966796875" y="325.194915771484375" />
+                <v x="1985.3865966796875" y="61.48989105224609375" />
+                <v x="1957.7677001953125" y="51.3038787841796875" />
+                <v x="1922.130615234375" y="47.90856170654296875" />
+              </points>
+              <segments>LLLLLLLLLL</segments>
+            </InputContour>
+          </Polygon>
+        <Polygon uniqueId="1775744606534" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="U OUTER" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="1627.28369140625" y="123.4560546875" />
+              <v x="2213.7138671875" y="123.4560546875" />
+              <v x="2213.7138671875" y="596.89703369140625" />
+              <v x="1627.28369140625" y="596.89703369140625" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="1628.5897216796875" y="289.314208984375" />
+                <v x="1648.180908203125" y="217.53448486328125" />
+                <v x="1676.9146728515625" y="168.4849853515625" />
+                <v x="1721.3211669921875" y="129.006072998046875" />
+                <v x="1722.3681640625" y="355.219390869140625" />
+                <v x="1743.524658203125" y="423.30322265625" />
+                <v x="1791.849609375" y="462.782196044921875" />
+                <v x="1844.0927734375" y="496.2794189453125" />
+                <v x="1922.4576416015625" y="504.65362548828125" />
+                <v x="2003.4351806640625" y="491.494049072265625" />
+                <v x="2056.9833984375" y="466.3712158203125" />
+                <v x="2097.47265625" y="420.91064453125" />
+                <v x="2115.75732421875" y="355.1124267578125" />
+                <v x="2115.400146484375" y="123.4560546875" />
+                <v x="2161.470703125" y="166.0923614501953125" />
+                <v x="2195.428466796875" y="216.338165283203125" />
+                <v x="2213.7138671875" y="295.295989990234375" />
+                <v x="2208.175537109375" y="361.399749755859375" />
+                <v x="2196.734619140625" y="452.01519775390625" />
+                <v x="2136.65478515625" y="527.38397216796875" />
+                <v x="2060.318115234375" y="590.09686279296875" />
+                <v x="1993.003173828125" y="594.10125732421875" />
+                <v x="1925.4478759765625" y="596.89703369140625" />
+                <v x="1861.9859619140625" y="594.38189697265625" />
+                <v x="1787.9315185546875" y="588.39678955078125" />
+                <v x="1703.0364990234375" y="529.77667236328125" />
+                <v x="1640.3443603515625" y="448.426177978515625" />
+                <v x="1627.2835693359375" y="363.4866943359375" />
+              </points>
+              <segments>LLLLLLLLLLLLLLLLLLLLLLLLLLLL</segments>
+            </InputContour>
+          </Polygon>
+          <Polygon uniqueId="1775801459859" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="DJ" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="1437.744873046875" y="1508.609375" />
+              <v x="2408.35498046875" y="1508.609375" />
+              <v x="2408.35498046875" y="1661.433837890625" />
+              <v x="1437.744873046875" y="1661.433837890625" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="1437.744873046875" y="1661.433837890625" />
+                <v x="1542.73876953125" y="1508.609375" />
+                <v x="2294.0283203125" y="1509.192626953125" />
+                <v x="2408.35498046875" y="1661.433837890625" />
+              </points>
+              <segments>LLLL</segments>
+            </InputContour>
+          </Polygon>
+          <Slice uniqueId="update-test-new"><Params name="Common"><Param name="Name" value="New screen" /></Params><InputRect orientation="0"><v x="3000" y="1900" /><v x="3200" y="1900" /><v x="3200" y="2000" /><v x="3000" y="2000" /></InputRect></Slice></layers>
+      </Screen>
+      <Screen name="SR" uniqueId="1775744603730">
+        <layers>
+          <Slice uniqueId="1775744604899">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SR RING" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="1431.5169677734375" y="557.0787353515625" />
+              <v x="1644.8502197265625" y="557.0787353515625" />
+              <v x="1644.8502197265625" y="770.412109375" />
+              <v x="1431.5169677734375" y="770.412109375" />
+            </InputRect>
+            <SliceMask>
+              <Params name="Input Mask">
+                <Param name="Name" T="STRING" default="mask" value="mask" />
+                <Param name="Enabled" T="BOOL" default="1" value="1" />
+                <Param name="Invert" T="BOOL" default="1" value="1" />
+              </Params>
+              <ShapeObject>
+                <Params name="Shape">
+                  <ParamChoice name="Point Mode" default="PM_LINEAR" value="PM_BEZIER" storeChoices="0" />
+                </Params>
+                <Rect orientation="0">
+                  <v x="1431.5169677734375" y="557.0787963867188" />
+                  <v x="1644.8502197265625" y="557.0787963867188" />
+                  <v x="1644.8502197265625" y="770.4120483398438" />
+                  <v x="1431.5169677734375" y="770.4120483398438" />
+                </Rect>
+                <Shape>
+                  <Contour closed="1">
+                    <points>
+                      <v x="1538.18359375" y="557.0787963867188" />
+                      <v x="1597.0938720703125" y="557.0787963867188" />
+                      <v x="1644.8502197265625" y="604.8351440429688" />
+                      <v x="1644.8502197265625" y="663.7454223632812" />
+                      <v x="1644.8502197265625" y="722.6557006835938" />
+                      <v x="1597.0938720703125" y="770.4120483398438" />
+                      <v x="1538.18359375" y="770.4120483398438" />
+                      <v x="1479.2733154296875" y="770.4120483398438" />
+                      <v x="1431.5169677734375" y="722.6557006835938" />
+                      <v x="1431.5169677734375" y="663.7454223632812" />
+                      <v x="1431.5169677734375" y="604.8351440429688" />
+                      <v x="1479.2733154296875" y="557.0787963867188" />
+                    </points>
+                    <segments>CCCC</segments>
+                  </Contour>
+                </Shape>
+              </ShapeObject>
+            </SliceMask>
+          </Slice>
+        <Polygon uniqueId="1775801456785" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SR HEX" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="1136.97509765625" y="1082.169921875" />
+              <v x="1606.05908203125" y="1082.169921875" />
+              <v x="1606.05908203125" y="1512.15380859375" />
+              <v x="1136.97509765625" y="1512.15380859375" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="1255.777099609375" y="1082.26220703125" />
+                <v x="1494.841796875" y="1082.169921875" />
+                <v x="1606.05908203125" y="1313.1298828125" />
+                <v x="1470.722900390625" y="1512.15380859375" />
+                <v x="1247.203857421875" y="1512.15380859375" />
+                <v x="1136.97509765625" y="1313.1298828125" />
+              </points>
+              <segments>LLLLLL</segments>
+            </InputContour>
+          </Polygon>
+          <Polygon uniqueId="1775801455716" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SR 1" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="-0.77313232421875" y="512.76220703125" />
+              <v x="1010.84381103515625" y="512.76220703125" />
+              <v x="1010.84381103515625" y="1096.455322265625" />
+              <v x="-0.77313232421875" y="1096.455322265625" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="-0.7731170654296875" y="512.76220703125" />
+                <v x="754.07281494140625" y="514.51629638671875" />
+                <v x="1010.84381103515625" y="864.36883544921875" />
+                <v x="337.18389892578125" y="1096.455322265625" />
+              </points>
+              <segments>LLLL</segments>
+            </InputContour>
+          </Polygon>
+          <Polygon uniqueId="1775801457523" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SR 2" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="927.108154296875" y="517.117431640625" />
+              <v x="1589.64404296875" y="517.117431640625" />
+              <v x="1589.64404296875" y="1023.0286865234375" />
+              <v x="927.108154296875" y="1023.0286865234375" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="927.108154296875" y="517.117431640625" />
+                <v x="1215.407958984375" y="517.117431640625" />
+                <v x="1589.64404296875" y="935.70703125" />
+                <v x="1308.27392578125" y="1023.0286865234375" />
+              </points>
+              <segments>LLLL</segments>
+            </InputContour>
+          </Polygon>
+          <Polygon uniqueId="1775801457252" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SR 3" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="9.38818359375" y="1106.446044921875" />
+              <v x="1160.48681640625" y="1106.446044921875" />
+              <v x="1160.48681640625" y="1552.275146484375" />
+              <v x="9.38818359375" y="1552.275146484375" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="9.38818359375" y="1552.275146484375" />
+                <v x="194.165283203125" y="1372.8692626953125" />
+                <v x="1160.48681640625" y="1106.446044921875" />
+                <v x="851.092041015625" y="1552.275146484375" />
+              </points>
+              <segments>LLLL</segments>
+            </InputContour>
+          </Polygon>
+          </layers>
+      </Screen>
+      <Screen name="SL" uniqueId="1775744603886">
+        <layers>
+          <Slice uniqueId="1775744605044">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SL CIRCLE" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="2242.552734375" y="457.0787353515625" />
+              <v x="2455.8857421875" y="457.0787353515625" />
+              <v x="2455.8857421875" y="670.412109375" />
+              <v x="2242.552734375" y="670.412109375" />
+            </InputRect>
+            <SliceMask>
+              <Params name="Input Mask">
+                <Param name="Name" T="STRING" default="mask" value="mask" />
+                <Param name="Enabled" T="BOOL" default="1" value="1" />
+                <Param name="Invert" T="BOOL" default="1" value="1" />
+              </Params>
+              <ShapeObject>
+                <Params name="Shape">
+                  <ParamChoice name="Point Mode" default="PM_LINEAR" value="PM_BEZIER" storeChoices="0" />
+                </Params>
+                <Rect orientation="0">
+                  <v x="2242.552734375" y="457.07891845703125" />
+                  <v x="2455.8857421875" y="457.07891845703125" />
+                  <v x="2455.8857421875" y="670.41192626953125" />
+                  <v x="2242.552734375" y="670.41192626953125" />
+                </Rect>
+                <Shape>
+                  <Contour closed="1">
+                    <points>
+                      <v x="2349.21923828125" y="457.07891845703125" />
+                      <v x="2408.12939453125" y="457.07891845703125" />
+                      <v x="2455.8857421875" y="504.835205078125" />
+                      <v x="2455.8857421875" y="563.74542236328125" />
+                      <v x="2455.8857421875" y="622.6556396484375" />
+                      <v x="2408.12939453125" y="670.41192626953125" />
+                      <v x="2349.21923828125" y="670.41192626953125" />
+                      <v x="2290.30908203125" y="670.41192626953125" />
+                      <v x="2242.552734375" y="622.6556396484375" />
+                      <v x="2242.552734375" y="563.74542236328125" />
+                      <v x="2242.552734375" y="504.835205078125" />
+                      <v x="2290.30908203125" y="457.07891845703125" />
+                    </points>
+                    <segments>CCCC</segments>
+                  </Contour>
+                </Shape>
+              </ShapeObject>
+            </SliceMask>
+          </Slice>
+        <Polygon uniqueId="1775801456480" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SL HEX" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="2242.14892578125" y="1081.800048828125" />
+              <v x="2679.3935546875" y="1081.800048828125" />
+              <v x="2679.3935546875" y="1488.437744140625" />
+              <v x="2242.14892578125" y="1488.437744140625" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="2348.130126953125" y="1081.8873291015625" />
+                <v x="2574.21484375" y="1081.800048828125" />
+                <v x="2679.3935546875" y="1300.2200927734375" />
+                <v x="2551.4052734375" y="1488.4378662109375" />
+                <v x="2340.022216796875" y="1488.4378662109375" />
+                <v x="2242.14892578125" y="1300.2200927734375" />
+              </points>
+              <segments>LLLLLL</segments>
+            </InputContour>
+          </Polygon>
+          <Polygon uniqueId="1775801455511" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SL1" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="2816.5732421875" y="506.5384521484375" />
+              <v x="3840" y="506.5384521484375" />
+              <v x="3840" y="1093.0352783203125" />
+              <v x="2816.5732421875" y="1093.0352783203125" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="2816.5732421875" y="871.644287109375" />
+                <v x="3067.939697265625" y="506.92169189453125" />
+                <v x="3840.000244140625" y="506.5384521484375" />
+                <v x="3508.796630859375" y="1093.0352783203125" />
+              </points>
+              <segments>LLLL</segments>
+            </InputContour>
+          </Polygon>
+          <Polygon uniqueId="1775801456010" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SL 2" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="2242.71142578125" y="517.8157958984375" />
+              <v x="2905.333984375" y="517.8157958984375" />
+              <v x="2905.333984375" y="1031.065185546875" />
+              <v x="2242.71142578125" y="1031.065185546875" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="2242.71142578125" y="941.47711181640625" />
+                <v x="2620.74609375" y="517.8157958984375" />
+                <v x="2905.333984375" y="517.8157958984375" />
+                <v x="2520.219970703125" y="1031.065185546875" />
+              </points>
+              <segments>LLLL</segments>
+            </InputContour>
+          </Polygon>
+          <Polygon uniqueId="1775801458295" IsVirgin="0">
+            <Params name="Common">
+              <Param name="Name" T="STRING" default="Layer" value="SL 3" />
+              <Param name="Enabled" T="BOOL" default="1" value="1" />
+            </Params>
+            <InputRect orientation="0">
+              <v x="2624.7099609375" y="1105.6904296875" />
+              <v x="3836.6865234375" y="1105.6904296875" />
+              <v x="3836.6865234375" y="1555.0107421875" />
+              <v x="2624.7099609375" y="1555.0107421875" />
+            </InputRect>
+            <InputContour closed="1">
+              <points>
+                <v x="2624.709716796875" y="1105.6905517578125" />
+                <v x="3616.032470703125" y="1367.206787109375" />
+                <v x="3836.6865234375" y="1555.0107421875" />
+                <v x="2959.501953125" y="1554.679443359375" />
+              </points>
+              <segments>LLLL</segments>
+            </InputContour>
+          </Polygon>
+          </layers>
+      </Screen>
+    </screens>
+  </ScreenSetup>
+</XmlState>

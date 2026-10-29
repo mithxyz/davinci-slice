@@ -1,0 +1,115 @@
+{
+  "native_render_verified": true,
+  "remapper_frames": 10,
+  "source_baseline_verified": true,
+  "cases": [
+    {
+      "case": "native_forward",
+      "direction": 0,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "outside_alpha_max": 0,
+      "flat_source_samples": 30069,
+      "rgb_match": 1.0,
+      "alpha_match": 1.0
+    },
+    {
+      "case": "native_reverse",
+      "direction": 1,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "outside_alpha_max": 0,
+      "flat_source_samples": 31393,
+      "rgb_match": 1.0,
+      "alpha_match": 1.0
+    },
+    {
+      "case": "subset",
+      "direction": 0,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "outside_alpha_max": 0,
+      "flat_source_samples": 12255,
+      "rgb_match": 1.0,
+      "alpha_match": 1.0
+    },
+    {
+      "case": "native_empty",
+      "transparent": true
+    },
+    {
+      "case": "ultra_center_forward",
+      "direction": 0,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "outside_alpha_max": 0,
+      "flat_source_samples": 10964,
+      "rgb_match": 1.0,
+      "alpha_match": 1.0
+    },
+    {
+      "case": "ultra_center_reverse",
+      "direction": 1,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "outside_alpha_max": 0,
+      "flat_source_samples": 3680,
+      "rgb_match": 1.0,
+      "alpha_match": 1.0
+    },
+    {
+      "case": "ultra_sr_forward",
+      "direction": 0,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "outside_alpha_max": 0,
+      "flat_source_samples": 16172,
+      "rgb_match": 1.0,
+      "alpha_match": 1.0
+    },
+    {
+      "case": "ultra_sr_reverse",
+      "direction": 1,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "outside_alpha_max": 0,
+      "flat_source_samples": 5078,
+      "rgb_match": 1.0,
+      "alpha_match": 1.0
+    },
+    {
+      "case": "small_forward",
+      "direction": 0,
+      "dimensions": [
+        800,
+        400
+      ],
+      "outside_alpha_max": 0,
+      "opaque_interior": true
+    },
+    {
+      "case": "small_reverse",
+      "direction": 1,
+      "dimensions": [
+        640,
+        360
+      ],
+      "outside_alpha_max": 0,
+      "opaque_interior": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "automated_tests": 57,
+  "lua_syntax_validated": 5,
+  "installed_script_matches": true,
+  "native_render_verified": true,
+  "native_window_verified": true,
+  "remapper_frames": 10,
+  "native_window_checks": [
+    "launch",
+    "XML load",
+    "paired previews",
+    "Screen switch",
+    "next page",
+    "all/none selection",
+    "Fusion insertion",
+    "published controls visible"
+  ],
+  "prepared_bundles": 4,
+  "render_report": "render_report.json",
+  "geometry_engine": "native affine Transform with independent X/Y scale and a top-left pivot",
+  "demo_timeline": "Map Remapper \u2014 Validation"
+}

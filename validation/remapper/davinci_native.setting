@@ -1,0 +1,2020 @@
+{
+	Tools = ordered() {
+		MapRemapper = GroupOperator {
+			CtrlWZoom = false,
+			NameSet = true,
+			CustomData = {
+				DavinciRemap = {
+					SourceHash = "a9cfa6fca5f6ab82d1ab48c2ddafb4f91235287d2020edb759871e6b7d7a953a",
+					MapName = "DavinciMap / Screen 1",
+					Manifest = "{\"name\": \"DavinciMap\", \"source_sha256\": \"a9cfa6fca5f6ab82d1ab48c2ddafb4f91235287d2020edb759871e6b7d7a953a\", \"width\": 3840, \"height\": 2160, \"output_width\": 3840, \"output_height\": 2160, \"screen_name\": \"Screen 1\", \"screen_id\": \"1793144513098\", \"slices\": [{\"name\": \"SQ-1\", \"id\": \"1793144513916\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 383.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\", \"key\": \"0\", \"input\": {\"x\": 383.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 0.0, \"y\": 1080.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}}, {\"name\": \"SQ-2\", \"id\": \"1793144513974\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 895.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\", \"key\": \"1\", \"input\": {\"x\": 895.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 512.0, \"y\": 1080.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}}, {\"name\": \"SQ-3\", \"id\": \"1793144514017\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 1407.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\", \"key\": \"2\", \"input\": {\"x\": 1407.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 1024.0, \"y\": 1080.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}}, {\"name\": \"SQ-4\", \"id\": \"1793144514060\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 1919.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\", \"key\": \"3\", \"input\": {\"x\": 1919.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 1536.0, \"y\": 1080.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}}, {\"name\": \"SQ-5\", \"id\": \"1793144514103\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 2431.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\", \"key\": \"4\", \"input\": {\"x\": 2431.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 2048.0, \"y\": 1080.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}}, {\"name\": \"SQ-6\", \"id\": \"1793144514146\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 2944.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\", \"key\": \"5\", \"input\": {\"x\": 2944.5, \"y\": 0.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 2561.0, \"y\": 1080.0, \"width\": 512.0, \"height\": 512.0, \"shape\": \"Rectangle\"}}, {\"name\": \"Col-R1\", \"id\": \"1793144513642\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 2923.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\", \"key\": \"6\", \"input\": {\"x\": 2923.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 2689.0, \"y\": 0.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}}, {\"name\": \"Col-R2\", \"id\": \"1793144513709\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 3222.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\", \"key\": \"7\", \"input\": {\"x\": 3222.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 2945.0, \"y\": 0.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}}, {\"name\": \"Col-R3\", \"id\": \"1793144513809\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 3521.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\", \"key\": \"8\", \"input\": {\"x\": 3521.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 3201.0, \"y\": 0.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}}, {\"name\": \"Col-L1\", \"id\": \"1793144513208\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 661.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\", \"key\": \"9\", \"input\": {\"x\": 661.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 2433.0, \"y\": 0.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}}, {\"name\": \"Col-L2\", \"id\": \"1793144513288\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 362.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\", \"key\": \"10\", \"input\": {\"x\": 362.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 2176.0, \"y\": 0.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}}, {\"name\": \"Col-L3\", \"id\": \"1793144513331\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 63.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\", \"key\": \"11\", \"input\": {\"x\": 63.0, \"y\": 540.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 1920.0, \"y\": 0.0, \"width\": 256.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}}, {\"name\": \"DJ\", \"id\": \"1793144513138\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 960.0, \"y\": 1620.0, \"width\": 1920.0, \"height\": 256.0, \"shape\": \"Rectangle\", \"key\": \"12\", \"input\": {\"x\": 960.0, \"y\": 1620.0, \"width\": 1920.0, \"height\": 256.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 0.0, \"y\": 1592.0, \"width\": 1920.0, \"height\": 256.0, \"shape\": \"Rectangle\"}}, {\"name\": \"Main\", \"id\": \"1793144513099\", \"screen\": \"Screen 1\", \"supported\": true, \"reason\": \"\", \"x\": 960.0, \"y\": 540.0, \"width\": 1920.0, \"height\": 1080.0, \"shape\": \"Rectangle\", \"key\": \"13\", \"input\": {\"x\": 960.0, \"y\": 540.0, \"width\": 1920.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}, \"output\": {\"x\": 0.0, \"y\": 0.0, \"width\": 1920.0, \"height\": 1080.0, \"shape\": \"Rectangle\"}}]}"
+				}
+			},
+			Inputs = ordered() {
+				Comments = Input { Value = "Map Remapper: DavinciMap / Screen 1 | 14 screens | 3840 x 2160", },
+				Direction = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Direction",
+					Page = "Controls",
+					Width = 1,
+					Default = 0,
+				},
+				Enable1 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable1",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable2 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable2",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable3 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable3",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable4 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable4",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable5 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable5",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable6 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable6",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable7 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable7",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable8 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable8",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable9 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable9",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable10 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable10",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable11 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable11",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable12 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable12",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable13 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable13",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				Enable14 = InstanceInput {
+					SourceOp = "Controls",
+					Source = "Enable14",
+					Page = "Controls",
+					Width = 1,
+					Default = 1,
+				},
+				MainInput1 = InstanceInput {
+					SourceOp = "SourceResize",
+					Source = "Input",
+				}
+			},
+			Outputs = {
+				MainOutput1 = InstanceOutput {
+					SourceOp = "MapOutput",
+					Source = "Output",
+				},
+				Output2 = InstanceOutput {
+					SourceOp = "Controls",
+					Source = "Output",
+				},
+				Output3 = InstanceOutput {
+					SourceOp = "MapOutput",
+					Source = "Output",
+				}
+			},
+			ViewInfo = GroupInfo {
+				Pos = { 165, 49.5 },
+				Flags = {
+					AllowPan = false,
+					AutoSnap = true,
+					RemoveRouters = true
+				},
+				Size = { 126, 66.3636, 63, 24.2424 },
+				Direction = "Horizontal",
+				PipeStyle = "Direct",
+				Scale = 1,
+				Offset = { 0, 0 }
+			},
+			Tools = ordered() {
+				Controls = Custom {
+					CtrlWShown = false,
+					Inputs = {
+						LUTIn1 = Input {
+							SourceOp = "ControlsLUTIn1",
+							Source = "Value",
+						},
+						LUTIn2 = Input {
+							SourceOp = "ControlsLUTIn2",
+							Source = "Value",
+						},
+						LUTIn3 = Input {
+							SourceOp = "ControlsLUTIn3",
+							Source = "Value",
+						},
+						LUTIn4 = Input {
+							SourceOp = "ControlsLUTIn4",
+							Source = "Value",
+						},
+						Enable2 = Input { Value = 0, },
+						Enable3 = Input { Value = 0, },
+						Enable4 = Input { Value = 0, },
+						Enable5 = Input { Value = 0, },
+						Enable6 = Input { Value = 0, },
+						Enable7 = Input { Value = 0, },
+						Enable8 = Input { Value = 0, },
+						Enable9 = Input { Value = 0, },
+						Enable10 = Input { Value = 0, },
+						Enable11 = Input { Value = 0, },
+						Enable12 = Input { Value = 0, },
+						Enable13 = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+					UserControls = ordered() { Direction = { { CCS_AddString = "Input → Output" }, { CCS_AddString = "Output → Input" }, ICD_Width = 1, INP_Integer = true, INPID_InputControl = "ComboControl", INP_MaxScale = 1, INP_Default = 0, INP_MinScale = 0, LINKID_DataType = "Number", ICS_ControlPage = "Controls", LINKS_Name = "Direction", }, Enable1 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: SQ-1", }, Enable2 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: SQ-2", }, Enable3 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: SQ-3", }, Enable4 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: SQ-4", }, Enable5 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: SQ-5", }, Enable6 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: SQ-6", }, Enable7 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: Col-R1", }, Enable8 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: Col-R2", }, Enable9 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: Col-R3", }, Enable10 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: Col-L1", }, Enable11 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: Col-L2", }, Enable12 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: Col-L3", }, Enable13 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: DJ", }, Enable14 = { ICD_Width = 1, INP_Integer = true, INPID_InputControl = "CheckboxControl", INP_MaxScale = 1, INP_Default = 1, INP_MinScale = 0, LINKID_DataType = "Number", CBC_TriState = false, ICS_ControlPage = "Controls", LINKS_Name = "Include: Main", } }
+				},
+				Canvas = Background {
+					CtrlWShown = false,
+					Inputs = {
+						GlobalOut = Input { Value = 71, },
+						Width = Input { Value = 3840, },
+						Height = Input { Value = 2160, },
+						TopLeftAlpha = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				SourceResize = BetterResize {
+					CtrlWShown = false,
+					Inputs = {
+						Width = Input {
+							Value = 3840,
+							Expression = "iif(Controls.Direction < 0.5,3840,3840)",
+						},
+						Height = Input {
+							Value = 2160,
+							Expression = "iif(Controls.Direction < 0.5,2160,2160)",
+						},
+						HiQOnly = Input { Value = 0, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Input = Input {
+							SourceOp = "MediaIn1",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				SourceFrame = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceResize",
+							Source = "Output",
+						},
+						Center = Input { Expression = "Point(iif(Controls.Direction < 0.5,3840,3840)/7680,1-iif(Controls.Direction < 0.5,2160,2160)/4320)", },
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice1ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.16653645833333, 0.88148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice1ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice1ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice1ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.099869791666667, 0.5 }, },
+						TopRight = Input { Value = { 0.90013020833333, 0.5 }, },
+						BottomLeft = Input { Value = { -0.099869791666667, -0.5 }, },
+						BottomRight = Input { Value = { 0.90013020833333, -0.5 }, },
+						Input = Input {
+							SourceOp = "Slice1ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice1ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable1,0)", },
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice1ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice1ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.066666666666667, 0.38148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice1ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice1ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice1ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.099869791666667, 1.5 }, },
+						TopRight = Input { Value = { 1.0998697916667, 1.5 }, },
+						BottomLeft = Input { Value = { 0.099869791666667, 0.5 }, },
+						BottomRight = Input { Value = { 1.0998697916667, 0.5 }, },
+						Input = Input {
+							SourceOp = "Slice1ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice1ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable1,0)", },
+						Background = Input {
+							SourceOp = "Slice1ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice1ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice2ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.29986979166667, 0.88148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice2ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice2ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice2ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.099869791666667, 0.5 }, },
+						TopRight = Input { Value = { 0.90013020833333, 0.5 }, },
+						BottomLeft = Input { Value = { -0.099869791666667, -0.5 }, },
+						BottomRight = Input { Value = { 0.90013020833333, -0.5 }, },
+						Input = Input {
+							SourceOp = "Slice2ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice2ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable2,0)", },
+						Background = Input {
+							SourceOp = "Slice1ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice2ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice2ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.2, 0.38148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice2ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice2ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice2ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.099869791666667, 1.5 }, },
+						TopRight = Input { Value = { 1.0998697916667, 1.5 }, },
+						BottomLeft = Input { Value = { 0.099869791666667, 0.5 }, },
+						BottomRight = Input { Value = { 1.0998697916667, 0.5 }, },
+						Input = Input {
+							SourceOp = "Slice2ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice2ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable2,0)", },
+						Background = Input {
+							SourceOp = "Slice2ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice2ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice3ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.433203125, 0.88148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice3ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice3ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice3ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.099869791666667, 0.5 }, },
+						TopRight = Input { Value = { 0.90013020833333, 0.5 }, },
+						BottomLeft = Input { Value = { -0.099869791666667, -0.5 }, },
+						BottomRight = Input { Value = { 0.90013020833333, -0.5 }, },
+						Input = Input {
+							SourceOp = "Slice3ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice3ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable3,0)", },
+						Background = Input {
+							SourceOp = "Slice2ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice3ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice3ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.33333333333333, 0.38148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice3ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice3ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice3ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.099869791666667, 1.5 }, },
+						TopRight = Input { Value = { 1.0998697916667, 1.5 }, },
+						BottomLeft = Input { Value = { 0.099869791666667, 0.5 }, },
+						BottomRight = Input { Value = { 1.0998697916667, 0.5 }, },
+						Input = Input {
+							SourceOp = "Slice3ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice3ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable3,0)", },
+						Background = Input {
+							SourceOp = "Slice3ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice3ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice4ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.56653645833333, 0.88148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice4ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice4ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice4ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.099869791666667, 0.5 }, },
+						TopRight = Input { Value = { 0.90013020833333, 0.5 }, },
+						BottomLeft = Input { Value = { -0.099869791666667, -0.5 }, },
+						BottomRight = Input { Value = { 0.90013020833333, -0.5 }, },
+						Input = Input {
+							SourceOp = "Slice4ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice4ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable4,0)", },
+						Background = Input {
+							SourceOp = "Slice3ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice4ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice4ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.46666666666667, 0.38148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice4ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice4ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice4ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.099869791666667, 1.5 }, },
+						TopRight = Input { Value = { 1.0998697916667, 1.5 }, },
+						BottomLeft = Input { Value = { 0.099869791666667, 0.5 }, },
+						BottomRight = Input { Value = { 1.0998697916667, 0.5 }, },
+						Input = Input {
+							SourceOp = "Slice4ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice4ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable4,0)", },
+						Background = Input {
+							SourceOp = "Slice4ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice4ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice5ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.69986979166667, 0.88148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice5ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice5ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice5ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.099869791666667, 0.5 }, },
+						TopRight = Input { Value = { 0.90013020833333, 0.5 }, },
+						BottomLeft = Input { Value = { -0.099869791666667, -0.5 }, },
+						BottomRight = Input { Value = { 0.90013020833333, -0.5 }, },
+						Input = Input {
+							SourceOp = "Slice5ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice5ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable5,0)", },
+						Background = Input {
+							SourceOp = "Slice4ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice5ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice5ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.6, 0.38148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice5ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice5ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice5ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.099869791666667, 1.5 }, },
+						TopRight = Input { Value = { 1.0998697916667, 1.5 }, },
+						BottomLeft = Input { Value = { 0.099869791666667, 0.5 }, },
+						BottomRight = Input { Value = { 1.0998697916667, 0.5 }, },
+						Input = Input {
+							SourceOp = "Slice5ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice5ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable5,0)", },
+						Background = Input {
+							SourceOp = "Slice5ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice5ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice6ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.83346354166667, 0.88148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice6ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice6ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice6ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.099869791666667, 0.5 }, },
+						TopRight = Input { Value = { 0.90013020833333, 0.5 }, },
+						BottomLeft = Input { Value = { -0.099869791666667, -0.5 }, },
+						BottomRight = Input { Value = { 0.90013020833333, -0.5 }, },
+						Input = Input {
+							SourceOp = "Slice6ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice6ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable6,0)", },
+						Background = Input {
+							SourceOp = "Slice5ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice6ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice6ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.73359375, 0.38148148148148 }, },
+						Width = Input { Value = 0.13333333333333, },
+						Height = Input { Value = 0.23703703703704, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice6ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice6ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice6ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.099869791666667, 1.5 }, },
+						TopRight = Input { Value = { 1.0998697916667, 1.5 }, },
+						BottomLeft = Input { Value = { 0.099869791666667, 0.5 }, },
+						BottomRight = Input { Value = { 1.0998697916667, 0.5 }, },
+						Input = Input {
+							SourceOp = "Slice6ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice6ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable6,0)", },
+						Background = Input {
+							SourceOp = "Slice6ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice6ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice7ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.79453125, 0.5 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice7ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice7ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice7ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.0609375, 1.25 }, },
+						TopRight = Input { Value = { 0.9390625, 1.25 }, },
+						BottomLeft = Input { Value = { -0.0609375, 0.25 }, },
+						BottomRight = Input { Value = { 0.9390625, 0.25 }, },
+						Input = Input {
+							SourceOp = "Slice7ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice7ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable7,0)", },
+						Background = Input {
+							SourceOp = "Slice6ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice7ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice7ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.73359375, 0.75 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice7ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice7ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice7ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.0609375, 0.75 }, },
+						TopRight = Input { Value = { 1.0609375, 0.75 }, },
+						BottomLeft = Input { Value = { 0.0609375, -0.25 }, },
+						BottomRight = Input { Value = { 1.0609375, -0.25 }, },
+						Input = Input {
+							SourceOp = "Slice7ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice7ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable7,0)", },
+						Background = Input {
+							SourceOp = "Slice7ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice7ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice8ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.87239583333333, 0.5 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice8ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice8ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice8ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.072135416666667, 1.25 }, },
+						TopRight = Input { Value = { 0.92786458333333, 1.25 }, },
+						BottomLeft = Input { Value = { -0.072135416666667, 0.25 }, },
+						BottomRight = Input { Value = { 0.92786458333333, 0.25 }, },
+						Input = Input {
+							SourceOp = "Slice8ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice8ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable8,0)", },
+						Background = Input {
+							SourceOp = "Slice7ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice8ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice8ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.80026041666667, 0.75 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice8ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice8ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice8ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.072135416666667, 0.75 }, },
+						TopRight = Input { Value = { 1.0721354166667, 0.75 }, },
+						BottomLeft = Input { Value = { 0.072135416666667, -0.25 }, },
+						BottomRight = Input { Value = { 1.0721354166667, -0.25 }, },
+						Input = Input {
+							SourceOp = "Slice8ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice8ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable8,0)", },
+						Background = Input {
+							SourceOp = "Slice8ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice8ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice9ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.95026041666667, 0.5 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice9ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice9ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice9ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.083333333333333, 1.25 }, },
+						TopRight = Input { Value = { 0.91666666666667, 1.25 }, },
+						BottomLeft = Input { Value = { -0.083333333333333, 0.25 }, },
+						BottomRight = Input { Value = { 0.91666666666667, 0.25 }, },
+						Input = Input {
+							SourceOp = "Slice9ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice9ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable9,0)", },
+						Background = Input {
+							SourceOp = "Slice8ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice9ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice9ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.86692708333333, 0.75 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice9ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice9ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice9ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.083333333333333, 0.75 }, },
+						TopRight = Input { Value = { 1.0833333333333, 0.75 }, },
+						BottomLeft = Input { Value = { 0.083333333333333, -0.25 }, },
+						BottomRight = Input { Value = { 1.0833333333333, -0.25 }, },
+						Input = Input {
+							SourceOp = "Slice9ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice9ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable9,0)", },
+						Background = Input {
+							SourceOp = "Slice9ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice9ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice10ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.20546875, 0.5 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice10ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice10ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice10ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.46145833333333, 1.25 }, },
+						TopRight = Input { Value = { 1.4614583333333, 1.25 }, },
+						BottomLeft = Input { Value = { 0.46145833333333, 0.25 }, },
+						BottomRight = Input { Value = { 1.4614583333333, 0.25 }, },
+						Input = Input {
+							SourceOp = "Slice10ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice10ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable10,0)", },
+						Background = Input {
+							SourceOp = "Slice9ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice10ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice10ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.66692708333333, 0.75 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice10ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice10ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice10ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.46145833333333, 0.75 }, },
+						TopRight = Input { Value = { 0.53854166666667, 0.75 }, },
+						BottomLeft = Input { Value = { -0.46145833333333, -0.25 }, },
+						BottomRight = Input { Value = { 0.53854166666667, -0.25 }, },
+						Input = Input {
+							SourceOp = "Slice10ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice10ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable10,0)", },
+						Background = Input {
+							SourceOp = "Slice10ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice10ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice11ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.12760416666667, 0.5 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice11ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice11ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice11ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.47239583333333, 1.25 }, },
+						TopRight = Input { Value = { 1.4723958333333, 1.25 }, },
+						BottomLeft = Input { Value = { 0.47239583333333, 0.25 }, },
+						BottomRight = Input { Value = { 1.4723958333333, 0.25 }, },
+						Input = Input {
+							SourceOp = "Slice11ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice11ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable11,0)", },
+						Background = Input {
+							SourceOp = "Slice10ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice11ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice11ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.6, 0.75 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice11ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice11ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice11ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.47239583333333, 0.75 }, },
+						TopRight = Input { Value = { 0.52760416666667, 0.75 }, },
+						BottomLeft = Input { Value = { -0.47239583333333, -0.25 }, },
+						BottomRight = Input { Value = { 0.52760416666667, -0.25 }, },
+						Input = Input {
+							SourceOp = "Slice11ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice11ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable11,0)", },
+						Background = Input {
+							SourceOp = "Slice11ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice11ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice12ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.049739583333333, 0.5 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice12ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice12ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice12ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.48359375, 1.25 }, },
+						TopRight = Input { Value = { 1.48359375, 1.25 }, },
+						BottomLeft = Input { Value = { 0.48359375, 0.25 }, },
+						BottomRight = Input { Value = { 1.48359375, 0.25 }, },
+						Input = Input {
+							SourceOp = "Slice12ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice12ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable12,0)", },
+						Background = Input {
+							SourceOp = "Slice11ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice12ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice12ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.53333333333333, 0.75 }, },
+						Width = Input { Value = 0.066666666666667, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice12ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice12ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice12ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.48359375, 0.75 }, },
+						TopRight = Input { Value = { 0.51640625, 0.75 }, },
+						BottomLeft = Input { Value = { -0.48359375, -0.25 }, },
+						BottomRight = Input { Value = { 0.51640625, -0.25 }, },
+						Input = Input {
+							SourceOp = "Slice12ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice12ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable12,0)", },
+						Background = Input {
+							SourceOp = "Slice12ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice12ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice13ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.5, 0.19074074074074 }, },
+						Height = Input { Value = 0.11851851851852, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice13ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice13ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice13ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.25, 1.012962962963 }, },
+						TopRight = Input { Value = { 0.75, 1.012962962963 }, },
+						BottomLeft = Input { Value = { -0.25, 0.012962962962963 }, },
+						BottomRight = Input { Value = { 0.75, 0.012962962962963 }, },
+						Input = Input {
+							SourceOp = "Slice13ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice13ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable13,0)", },
+						Background = Input {
+							SourceOp = "Slice12ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice13ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice13ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.25, 0.2037037037037 }, },
+						Height = Input { Value = 0.11851851851852, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice13ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice13ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice13ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.25, 0.98703703703704 }, },
+						TopRight = Input { Value = { 1.25, 0.98703703703704 }, },
+						BottomLeft = Input { Value = { 0.25, -0.012962962962963 }, },
+						BottomRight = Input { Value = { 1.25, -0.012962962962963 }, },
+						Input = Input {
+							SourceOp = "Slice13ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice13ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction >= 0.5,Controls.Enable13,0)", },
+						Background = Input {
+							SourceOp = "Slice13ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice13ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice14ForwardRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice14ForwardClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice14ForwardRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice14ForwardWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { -0.25, 1.25 }, },
+						TopRight = Input { Value = { 0.75, 1.25 }, },
+						BottomLeft = Input { Value = { -0.25, 0.25 }, },
+						BottomRight = Input { Value = { 0.75, 0.25 }, },
+						Input = Input {
+							SourceOp = "Slice14ForwardClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice14ForwardMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input { Expression = "iif(Controls.Direction < 0.5,Controls.Enable14,0)", },
+						Background = Input {
+							SourceOp = "Slice13ReverseMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice14ForwardWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice14ReverseRect = RectangleMask {
+					CtrlWShown = false,
+					Inputs = {
+						MaskWidth = Input { Value = 3840, },
+						MaskHeight = Input { Value = 2160, },
+						PixelAspect = Input { Value = { 1, 1 }, },
+						Center = Input { Value = { 0.25, 0.75 }, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice14ReverseClip0 = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						EffectMask = Input {
+							SourceOp = "Slice14ReverseRect",
+							Source = "Mask",
+						},
+						Background = Input {
+							SourceOp = "Canvas",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "SourceFrame",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice14ReverseWarp = CornerPositioner {
+					CtrlWShown = false,
+					Inputs = {
+						MappingType = Input { Value = 0, },
+						TopLeft = Input { Value = { 0.25, 0.75 }, },
+						TopRight = Input { Value = { 1.25, 0.75 }, },
+						BottomLeft = Input { Value = { 0.25, -0.25 }, },
+						BottomRight = Input { Value = { 1.25, -0.25 }, },
+						Input = Input {
+							SourceOp = "Slice14ReverseClip0",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				Slice14ReverseMerge = Merge {
+					CtrlWShown = false,
+					Inputs = {
+						Blend = Input {
+							Value = 0,
+							Expression = "iif(Controls.Direction >= 0.5,Controls.Enable14,0)",
+						},
+						Background = Input {
+							SourceOp = "Slice14ForwardMerge",
+							Source = "Output",
+						},
+						Foreground = Input {
+							SourceOp = "Slice14ReverseWarp",
+							Source = "Output",
+						},
+						PerformDepthMerge = Input { Value = 0, }
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				},
+				MapOutput = Crop {
+					CtrlWShown = false,
+					Inputs = {
+						YOffset = Input { Expression = "2160-iif(Controls.Direction < 0.5,2160,2160)", },
+						XSize = Input {
+							Value = 3840,
+							Expression = "iif(Controls.Direction < 0.5,3840,3840)",
+						},
+						YSize = Input {
+							Value = 2160,
+							Expression = "iif(Controls.Direction < 0.5,2160,2160)",
+						},
+						Input = Input {
+							SourceOp = "Slice14ReverseMerge",
+							Source = "Output",
+						}
+					},
+					ViewInfo = OperatorInfo { Pos = { 0, 8.75758 } },
+				}
+			},
+		},
+		ControlsLUTIn1 = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 0, Green = 0, Blue = 0 },
+			CtrlWZoom = false,
+			NameSet = true,
+		},
+		ControlsLUTIn2 = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 0, Green = 0, Blue = 0 },
+			CtrlWZoom = false,
+			NameSet = true,
+		},
+		ControlsLUTIn3 = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 0, Green = 0, Blue = 0 },
+			CtrlWZoom = false,
+			NameSet = true,
+		},
+		ControlsLUTIn4 = LUTBezier {
+			KeyColorSplines = {
+				[0] = {
+					[0] = { 0, RH = { 0.333333333333333, 0.333333333333333 }, Flags = { Linear = true } },
+					[1] = { 1, LH = { 0.666666666666667, 0.666666666666667 }, Flags = { Linear = true } }
+				}
+			},
+			SplineColor = { Red = 0, Green = 0, Blue = 0 },
+			CtrlWZoom = false,
+			NameSet = true,
+		}
+	}
+}
